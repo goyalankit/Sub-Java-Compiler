@@ -1,0 +1,54 @@
+/*
+Following File shows syntactical error:
+1. if the variable has not been declared.
+2. If the variable is assigned a value of wrong data type.
+3. if the variable is compared with wrong data type
+4. If the comparison operator other than == is applied on variable of type String. 
+5. It also shows the implementation of break statements in loops.
+-------------------------------------------------------
+It also shows the assigned values to different variables.
+Multiple variables can be declared in a single line.
+*/
+
+package p1;
+public class Parent{
+
+	public static void main(){
+	public int a,i;                           //Multiple variables declared
+	String b;
+	if(a>5){
+		a=5+5;
+		c=324;
+		i=a*34;             //Variable C has not be defined
+	}
+		
+		else{
+			b="hello";
+			b=6+5;   //Type Mismatch::: Variable b is of type String
+		}
+		
+	while(b=="34"){           //b is of type String and == is applied 
+		
+		if(a>=23){
+		
+		if(b>=23){      //Cannot Perform this operation on type String
+					break;
+						}
+	
+				}
+		
+		
+			}						
+	
+	for(i=0;a<23;i=i+1){
+	
+	break;            //Unreachable code::: PLease check your break Statement
+	
+	if(a>23){
+	
+	}
+	
+}
+	
+	}
+}

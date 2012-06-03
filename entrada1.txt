@@ -1,0 +1,57 @@
+/*
+Following File shows:
+ 
+1. int variables are given default value 0. Also you cannot declare a variable twice.
+2. Inheritance
+3. Parent class object can call the constructor of child class.
+4. Child class object cannot call the constructor of parent class. 
+5. It also checks whether the class has been defined or not in the code.
+6. It also shows that you can define new functions and call them in another functions.
+7. At last it shows that break statement cannot be called without loop statement.
+
+*/
+
+package p1;
+public class Parent{
+
+	public static void main(){
+			
+			int a;	
+			int a;            //Duplicate declaration of the variable	
+			a = a+1;			
+			
+			foo();
+			bar(a);
+	}
+	
+	public void foo(){
+		int c;
+	}
+	
+	private int bar(int a){
+	
+	}
+	
+}
+
+public class child extends Parent{
+
+	child Obj = new child();       //This is correct
+	Parent Obj2 = new child();    //This is also correct
+	
+	child Obj3 = new Parent();   //Cannot call the constructor
+	
+	Son obj2 = new child();     // No such class exists
+	
+	public void cool(){
+			int k;
+		
+		if(k>=0){
+		
+				Break;   //Break cannot be used without loop
+				 
+		}
+	
+	}
+
+}

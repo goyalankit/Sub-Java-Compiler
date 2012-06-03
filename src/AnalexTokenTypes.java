@@ -1,0 +1,61 @@
+// $ANTLR : "grammer.g" -> "Analex.java"$
+ 
+	import java.util.*;
+
+public interface AnalexTokenTypes {
+	int EOF = 1;
+	int NULL_TREE_LOOKAHEAD = 3;
+	int WHILE = 4;
+	int FOR = 5;
+	int IF = 6;
+	int ELSE = 7;
+	int VOID = 8;
+	int INT = 9;
+	int STRING = 10;
+	int BREAK = 11;
+	int CLASS = 12;
+	int EXTENDS = 13;
+	int STATIC = 14;
+	int PACKAGE = 15;
+	int IMPORT = 16;
+	int PUBLIC = 17;
+	int PRIVATE = 18;
+	int PROTECTED = 19;
+	int NUEVA_LINEA = 20;
+	int BLANCO = 21;
+	int DIGITO = 22;
+	int NUMERO = 23;
+	int OPERADOR = 24;
+	int PARENTESIS = 25;
+	int SEPARADOR = 26;
+	int LETTER = 27;
+	int CADENA = 28;
+	int MAS = 29;
+	int MENOS = 30;
+	int PARANT = 31;
+	int EQUAL = 32;
+	int COND = 33;
+	int COMMA = 34;
+	int NOT = 35;
+	int QUES = 36;
+	int COL = 37;
+	int IDENT = 38;
+	int KOL = 39;
+	int DEQUAL = 40;
+	int COMMENT = 41;
+	// ";" = 42
+	// "," = 43
+	// "{" = 44
+	// "}" = 45
+	// "=" = 46
+	int LITERAL_new = 47;
+	// "(" = 48
+	// ")" = 49
+	// "?" = 50
+	// ":" = 51
+	// "!" = 52
+	// "+" = 53
+	// "-" = 54
+	// "*" = 55
+	// "/" = 56
+}
